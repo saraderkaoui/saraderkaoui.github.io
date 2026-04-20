@@ -11,6 +11,7 @@
         <a href="index.html" class="logo">SARA DERKAOUI</a>
         <ul class="nav-links">
             <li><a href="index.html">Accueil</a></li>
+            <li><a href="presentation.html">Présentation</a></li>
             <li><a href="experience.html">Expériences</a></li>
             <li><a href="projets.html" class="active">Projets</a></li>
             <li><a href="formation.html">Formation</a></li>
@@ -18,25 +19,109 @@
         </ul>
     </nav>
 
-    <div class="container">
+    <div class="container projects-page">
         <h1 style="text-align: center; margin-bottom: 50px;">Réalisations Techniques</h1>
-        
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-            <div class="card">
-                <h3>Robot Explorateur</h3>
-                <p>Conception Solidworks et programmation Arduino en terminale STI2D.</p>
-            </div>
 
-            <div class="card">
-                <h3>Réalisation d'un Typon</h3>
-                <p>Simulation de montage à amplification et création de circuit imprimé.</p>
-            </div>
+        <section class="project-category project-category--enterprise">
+            <h2 class="project-category-title">Projets en Entreprise</h2>
+            <div class="project-grid">
+                <article class="card project-card">
+                    <span class="project-kicker">DEGECOM</span>
+                    <h3>Office 365 : Archivage de mails et gestion de comptes</h3>
+                    <p>Organisation des boîtes de messagerie, suivi des accès et structuration des comptes utilisateurs.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/OFFICE-365-Archivage-Mail.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
 
-            <div class="card">
-                <h3>Développement Web</h3>
-                <p>Programmation de code HTML et structuration de sites web.</p>
+                <article class="card project-card">
+                    <span class="project-kicker">DEGECOM</span>
+                    <h3>VEEAM : Installation de solutions de sauvegarde</h3>
+                    <p>Déploiement des solutions de sauvegarde et préparation des contrôles de jobs.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/Procedure_Installation_Veeam.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <span class="project-kicker">DEGECOM</span>
+                    <h3>Vérification Sauvegarde</h3>
+                    <p>Contrôle des sauvegardes et validation des jobs pour sécuriser la continuité de service.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/Verifications-Sauvegardes.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
             </div>
-        </div>
+        </section>
+
+        <section class="project-category project-category--school">
+            <h2 class="project-category-title">Travaux Pratiques (TP Scolaires)</h2>
+            <div class="project-grid">
+                <article class="card project-card">
+                    <span class="project-kicker">Réseau</span>
+                    <h3>TP Réseau en étage</h3>
+                    <p>Organisation du réseau par niveau, répartition des équipements et structuration de l'infrastructure.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/reseau%20par%20etage%202025-06-17%20%281%29.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <span class="project-kicker">Réseau</span>
+                    <h3>Infrastructure Réseau : DHCP</h3>
+                    <p>Mise en place de l'adressage dynamique et organisation du réseau par étage.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/TP DHCP.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <span class="project-kicker">Réseau</span>
+                    <h3>Infrastructure Réseau : SSH</h3>
+                    <p>Prise en main sécurisée à distance et administration d'un environnement Linux.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/tp%20SSH%201.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <span class="project-kicker">Parc informatique</span>
+                    <h3>Gestion de parc : Déploiement et configuration de GLPI</h3>
+                    <p>Installation de l'outil de gestion, paramétrage de base et structuration du suivi du parc.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/TP%20GLPI%201.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <span class="project-kicker">Sécurité</span>
+                    <h3>TP Sauvegarde : Stratégies de sauvegarde</h3>
+                    <p>Gestion des stratégies de sauvegarde et mise en place de bonnes pratiques de continuité.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/TP%20SAUVEGARDE%201.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <span class="project-kicker">Sécurité</span>
+                    <h3>TP Veille : Veille technologique</h3>
+                    <p>Suivi des évolutions techniques et analyse régulière des bonnes pratiques de sécurité.</p>
+                    <div class="project-actions">
+                        <a class="project-cta" href="source/TP%20Veille.pdf" target="_blank" rel="noopener">Consulter le PDF</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="project-category project-category--bts">
+            <h2 class="project-category-title">Projets BTS (E4 / E6)</h2>
+            <div class="project-grid">
+                <article class="card project-card project-card--placeholder">   
+                    <h3>Projets de spécialité BTS SIO</h3>
+                    <p>Espace réservé aux réalisations E4 et E6 de spécialité, à enrichir au fil du cursus.</p>
+                </article>
+            </div>
+        </section>
     </div>
 </body>
 </html>
